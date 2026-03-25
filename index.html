@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Zone</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 50px;
+      background: #020617;
+    }
+
+    .navbar h2 {
+      color: #22c55e;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .navbar a:hover {
+      color: #22c55e;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #020617, #1e293b);
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      color: #22c55e;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+
+    .hero button {
+      padding: 12px 25px;
+      border: none;
+      background: #22c55e;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .hero button:hover {
+      background: #16a34a;
+    }
+
+    /* Games Section */
+    .games {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px;
+      width: 250px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .card h3 {
+      color: #22c55e;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      border: none;
+      background: #22c55e;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    .footer {
+      background: #020617;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h2>GameZone 🎮</h2>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Games</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Play. Compete. Win.</h1>
+    <p>Join the best online gaming platform</p>
+    <button>Start Playing</button>
+  </div>
+
+  <!-- Games -->
+  <div class="games">
+    <div class="card">
+      <h3>Battle Arena</h3>
+      <p>Fight with players worldwide</p>
+      <button>Play Now</button>
+    </div>
+
+    <div class="card">
+      <h3>Racing Pro</h3>
+      <p>High speed racing challenge</p>
+      <button>Play Now</button>
+    </div>
+
+    <div class="card">
+      <h3>Puzzle Master</h3>
+      <p>Test your brain skills</p>
+      <button>Play Now</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2026 GameZone | All Rights Reserved</p>
+  </div>
+
+</body>
+</html>
